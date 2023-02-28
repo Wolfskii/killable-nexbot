@@ -115,3 +115,10 @@ function ENT:SearchEnemy()
 
     return nearestTarget
 end
+
+-- Add your bot to the NPC spawn tab
+list.Set( "NPC", "my_nextbot", {
+	Name = "My NextBot",
+	Class = "my_nextbot",
+	Category = "My NextBot Category"
+})
